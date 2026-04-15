@@ -1,0 +1,25 @@
+{
+  "name": "splitr-server",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-validator": "^7.2.0",
+    "@google/generative-ai": "^0.24.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.0",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.9.13",
+    "resend": "^4.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
